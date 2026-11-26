@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+body { background: #121212; color: #fff; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+.calculator { background: #1e1e1e; padding: 20px; border-radius: 16px; width: 320px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+.display { background: #111; padding: 16px; text-align: right; margin-bottom: 16px; border-radius: 10px; word-break: break-all; }
+.previous-operand { font-size: 0.85rem; color: #888; min-height: 18px; }
+.current-operand { font-size: 1.8rem; font-weight: bold; }
+.buttons-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.btn { background: #2d2d2d; color: #fff; border: none; padding: 16px; font-size: 1.1rem; border-radius: 8px; cursor: pointer; }
+.btn:active { background: #444; }
+.btn.operator { background: #2b6cb0; }
+.btn.equals { background: #3182ce; }
